@@ -1,0 +1,26 @@
+Git Commands:
+-------------
+
+To connect Local to Remote:
+---------------------------
+
+Step 1: Open GitHub and Login.
+Step 2: Create a Repository. (Means a Folder)
+Step 3: Copy the url of the folder from Git Hub.
+Step 4: In Git Bash/Terminal run the below git command.
+
+			git remote add origin <url>
+
+
+To push the changes in your Local(Your Computer) to Remote(Online):
+-------------------------------------------------------------------
+
+			git push origin master
+			
+
+To view the Git logs:
+---------------------
+
+git log
+
+

@@ -18,9 +18,26 @@ To push the changes in your Local(Your Computer) to Remote(Online):
 			git push origin master
 			
 
-To view the Git logs:
----------------------
+To stage the changes to staging area:
+------------------------------------
 
-git log
+To keep a track of modifications or changes in the file we have to bring that changes to our staging area which we bring by using Staging. 
+
+Below command and this process of adding these changes or modifications in an area to keep a track of it are called staging.
+ 
+While Hunk means a piece of changes. 
+
+For example, we have written 4 lines of text in a file and modified 4 lines of text in that file that is known as a hunk which you can consider as a piece of change.
+
+Following command we may use to add all the modified data while working on git:
+
+			
+			git add .
+
+. means stage the changes in current directory
 
 
+To unstage the changes:
+-----------------------
+
+			git restore 

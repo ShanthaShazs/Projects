@@ -32,12 +32,15 @@ For example, we have written 4 lines of text in a file and modified 4 lines of t
 Following command we may use to add all the modified data while working on git:
 
 			
-			git add .
-
+			git add <file>     - to update changes in working directory
+			git restore <file> - to discard changes in working directory 
+			
 . means stage the changes in current directory
 
 
 To unstage the changes:
 -----------------------
 
-			git restore 
+			git restore --staged <file>  -  to unstage the changes
+			
+
